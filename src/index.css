@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-surface text-ink font-sans min-h-screen transition-colors duration-200;
+  }
+  body.dark {
+    @apply bg-surface-dark text-ink-dark;
+  }
+}
