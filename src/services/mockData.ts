@@ -176,28 +176,28 @@ export const MOCK_SUBJECT_GRADES: SubjectGrades[] = [
 
 export const MOCK_HOMEWORK: HomeworkTask[] = [
   {
-    id: "h1",
+    id: 1,
     title: "Algebra exercises 12–18",
     subject: "Mathematics",
     dueDate: "2026-04-03",
     status: "pending",
   },
   {
-    id: "h2",
+    id: 2,
     title: "Read chapter 4, summary (1 page)",
     subject: "Literature",
     dueDate: "2026-04-01",
     status: "pending",
   },
   {
-    id: "h3",
+    id: 3,
     title: "Physics: mechanics problems set B",
     subject: "Physics",
     dueDate: "2026-03-28",
     status: "overdue",
   },
   {
-    id: "h4",
+    id: 4,
     title: "Vocabulary list unit 7",
     subject: "English",
     dueDate: "2026-03-30",
