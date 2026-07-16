@@ -62,7 +62,7 @@ type ApiScheduleRule = {
   endTime?: string;
 };
 
-const BASE_URL = import.meta.env.VITE_API_URL ?? "http://192.168.100.90/api/v1";
+const BASE_URL = import.meta.env.VITE_API_URL ?? "/api/v1";
 
 export const apiClient: AxiosInstance = axios.create({
   baseURL: BASE_URL,
